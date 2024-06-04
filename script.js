@@ -40,7 +40,7 @@ function renderPage(page) {
                 <div class="card-body">
                     <img src="${item.images.sm}" class="card-img-top maxWidthImage" alt="${item.biography.fullName}">
                     <h5 class="card-title">${item.name}</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Nombre completo: ${item.fullName}</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">Nombre completo: ${item.biography.fullName}</h6>
                     <p class="card-text">${item.connections.groupAffiliation}</p>
                 </div>
             </div>
